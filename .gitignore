@@ -1,0 +1,5 @@
+mongodb_dump/
+*.zip
+.env
+vendor
+collection.json
