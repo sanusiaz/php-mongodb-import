@@ -29,7 +29,9 @@ foreach ($files as $file) {
     if ($fileExtension === "json") {
         $collectionName = pathinfo($file, PATHINFO_FILENAME);
 
-
+        $collectionName = explode(".", $collectionName);
+        array_shift($collectionName);
+        $collectionName = implode(".", $collectionName);
         $collections = $database->listCollections();
 
         $parsedCollectionName = [];
