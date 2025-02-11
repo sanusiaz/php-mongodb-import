@@ -1,4 +1,4 @@
-# Import BSON Colelction 
+# Import BSON Collection 
 
 ## Step1: Install php mongodb library
  ``Please Note your php version``
